@@ -161,14 +161,15 @@ fieldset[disabled] .btn-xl:hover {
 
 .navbar-custom .navbar-brand {
     color: #DFF5FF;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-size: 3rem;
 }
 
 .navbar-custom .navbar-brand.active,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:hover {
-    color: #378CE7
+    color: #0000ff
 }
 
 .navbar-custom .nav li a,
@@ -176,6 +177,9 @@ fieldset[disabled] .btn-xl:hover {
     font-family: "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #DFF5FF;
     text-transform: uppercase
+}
+.navbar-custom .navbar-toggle:hover{
+    color: #0000ff;
 }
 
 .navbar-custom .navbar-collapse {
