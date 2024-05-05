@@ -1,13 +1,6 @@
 var RankedProjects=[
     Projects.Details.DeliveryDisasters,
-    Projects.Details.Homography,
-    Projects.Details.ChemicalCarriageway,
-    Projects.Details.MREncyclopedia,
-    Projects.Details.Snake3D,
-    Projects.Details.Gameplay,
-    Projects.Details.ShiroDash,
-    Projects.Details.RiTE,
-    Projects.Details.NearbyConnections
+    Projects.Details.RubberBang
 ];
 //Functions
 SetPorfolioElements();
@@ -24,7 +17,7 @@ function SetPorfolioElements(){
         element.lastElementChild.firstElementChild.innerHTML= ProjectDetail.Name;
         var elem = element.getElementsByTagName("img")[0];
         element.lastElementChild.lastElementChild.innerHTML= ProjectDetail.SmallDescription;
-        elem.setAttribute("src","img/portfolio/"+ProjectDetail.ID+"/thumb.png");
+        elem.setAttribute("src","img/portfolio/"+ProjectDetail.ID+"/"+ProjectDetail.ID+"1.png");
         elem.setAttribute("alt", ProjectDetail.ID+", "+ProjectDetail.Name+", "+ProjectDetail.SmallDescription);
         elem.setAttribute("title", ProjectDetail.Name+", "+ProjectDetail.SmallDescription);
         parent.appendChild(element);
@@ -106,7 +99,7 @@ function SetCarousel(ProjectDetail){
     for (let i = 1; i <= ProjectDetail.NoOfProjectImages; i++) {
         
         indicator.setAttribute("data-slide-to",i);
-        inner.firstElementChild.setAttribute("src",imgPath+i+".jpg");
+        inner.firstElementChild.setAttribute("src",imgPath+i+".png");
 
         indicatorParent.appendChild(indicator.cloneNode(true));   
         innerParent.appendChild(inner.cloneNode(true));     
