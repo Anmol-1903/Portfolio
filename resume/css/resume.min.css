@@ -1,8 +1,8 @@
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #00ffff;
-    background-color: #000000;
+    color: #252525;
+    background-color: #DFF5FF;
 }
 
 @media (min-width:768px) {
@@ -22,7 +22,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #0080ff
+    color: #378CE7
 }
 
 h1 {
@@ -42,7 +42,7 @@ h2 {
 }
 
 .list-social-icons a {
-    color: #0088ff
+    color: #378CE7
 }
 
 .list-social-icons a:hover {
@@ -113,7 +113,7 @@ h2 {
 }
 
 section.resume-section {
-    border-bottom: 1px solid #0088ff;
+    border-bottom: 1px solid #378CE7;
     padding-top: 5rem !important;
     padding-bottom: 5rem !important
 }
@@ -140,25 +140,25 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #0088ff !important
+    background-color: #378CE7 !important
 }
 
 .text-primary {
-    color: #ffffff !important
+    color: #378CE7 !important
 }
 
 a {
-    color: #00ffff
+    color: #378CE7
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #0088ff
+    color: #378CE7
 }
 
 ::selection {
     text-shadow: none;
-    background: #4740af;
-    color: #fff
+    background: #378CE7;
+    color: #ffffff
 }
