@@ -73,7 +73,12 @@ a:hover {
 .img-centered {
     margin: 0 auto
 }
-
+#modal-videoiframe{
+    width: 92%;
+}
+.modal-body {
+    background-color: #DFF5FF;
+}
 .bg-light-gray {
     background-color: #DFF5FF
 }
