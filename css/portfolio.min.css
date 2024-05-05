@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+    .TopThing {
+        margin-top: 1000px;
+    }
+  }
+
 .btn-primary.active,
 .btn-primary:active,
 .btn-xl.active,
