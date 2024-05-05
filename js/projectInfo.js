@@ -9,12 +9,14 @@ const Projects = {
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
         },
-        WorkInProgress: {
-            ID: "WorkInProgress",
-            Name: "Work In Progress",
-            SmallDescription: "iOS, Android, AI",
-            LargeDescription: "Have you heard my Under Construction joke?<br>It's not done yet",
-            NoOfProjectImages: 1
+        DeliveryDisasters: {
+            ID: "DeliveryDisasters",
+            Name: "Delivery Disasters",
+            SmallDescription: "Driving/Racing",
+            LargeDescription: "A 3D driving game where you have to deliver packages from door to door. The game has realistic physics and good graphics. The game is optimized and can run on potato PCs as well.",
+            DownloadLink: "https://anmol-1903.itch.io/delivery-disasters",
+            EmbedVideoLinkID: "YND7QWOex7Y",
+            NoOfProjectImages: 3
         },
         TileVisualiser: {
             ID: "TileVisualiser",

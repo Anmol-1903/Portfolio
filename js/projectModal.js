@@ -1,5 +1,5 @@
 var RankedProjects=[
-    Projects.Details.WorkInProgress,
+    Projects.Details.DeliveryDisasters,
     Projects.Details.Homography,
     Projects.Details.ChemicalCarriageway,
     Projects.Details.MREncyclopedia,
@@ -24,7 +24,7 @@ function SetPorfolioElements(){
         element.lastElementChild.firstElementChild.innerHTML= ProjectDetail.Name;
         var elem = element.getElementsByTagName("img")[0];
         element.lastElementChild.lastElementChild.innerHTML= ProjectDetail.SmallDescription;
-        elem.setAttribute("src","img/portfolio/"+ProjectDetail.ID+"/thumb.jpg");
+        elem.setAttribute("src","img/portfolio/"+ProjectDetail.ID+"/thumb.png");
         elem.setAttribute("alt", ProjectDetail.ID+", "+ProjectDetail.Name+", "+ProjectDetail.SmallDescription);
         elem.setAttribute("title", ProjectDetail.Name+", "+ProjectDetail.SmallDescription);
         parent.appendChild(element);

@@ -2,8 +2,13 @@
     .TopThing {
         margin-top: 1000px;
     }
+    .img-responsive{
+        width: 50% !important;
+    }
   }
-
+::selection{
+    background-color: #0000ff;
+}
 .btn-primary.active,
 .btn-primary:active,
 .btn-xl.active,
@@ -259,7 +264,9 @@ fieldset[disabled] .btn-xl:hover {
         font-size: 1.5em
     }
 }
-
+.text-muted {
+    color: #378CE7
+}
 header {
     background-image: url(../img/LandingPage1.png);
     background-repeat: no-repeat;
