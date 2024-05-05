@@ -1,8 +1,3 @@
-/* Default style for sidebar */
-.Sidebar {
-    display: block; /* Or whatever your default display property is */
-  }
-  
   /* Media query to hide sidebar on mobile */
   @media only screen and (max-width: 768px) {
     .Sidebar {
