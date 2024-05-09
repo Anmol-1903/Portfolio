@@ -109,3 +109,13 @@ function MoveNavBarWithScroll(){
     }
     
 }
+function smoothScroll(target) {
+    const targetElement = document.querySelector(target);
+    if (targetElement) {
+        window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: "smooth"
+        });
+    }
+}
+

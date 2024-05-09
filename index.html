@@ -41,27 +41,27 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Anmol Mittal</a>
+                <a class="navbar-brand" href="#page-top">Anmol Mittal</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a class="nav-text" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="nav-text" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resume">Resume</a>
+                        <a class="nav-text" href="#resume">Resume</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Contacts</a>
+                        <a class="nav-text" href="#about">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -86,7 +86,11 @@
                 <!-- <div class="intro-lead-in">(Looking for opportunities)</div> -->
                 <br>
                 <br>
-                <a href="#portfolio" class="page-scroll btn btn-xl">Check Portfolio!</a>
+                
+                <button class="main-button">
+                  <a href="#" class="button-link"><span>Check Portfolio</span></a> 
+                </button>
+                             
             </div>
         </div>
     </header>
@@ -121,11 +125,272 @@
 
     <!-- Resume -->
     <div class="resume-scroller" id="resume">
-        <iframe id="resume-iframe" src="resume/index.html" style="width: 100%;border: 0!important;" onload="OnResumeIframeLoad()" ></iframe>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+        <div class="left-div"><br>
+            <div class="nav-items"><a href="#about">About</a></div>
+            <div class="nav-items"><a href="#publication">Projects</a></div>
+            <div class="nav-items"><a href="#experience">Experience</a></div>
+            <div class="nav-items"><a href="#education">Education</a></div>
+            <div class="nav-items"><a href="#skills">Skills</a></div>
+            <div class="nav-items"><a href="#interests">Interests</a></div>
+            <div class="nav-items"><a href="#extracurricular">Extracurricular</a></div>
+        <br></div>
+        <div class="right-div">
+            <div class="container-fluid p-0">
+                <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+                  <div class="my-auto">
+                    <a target="_parent"  href="..">
+                      <h1 class="mb-0">
+                        <span class="text-primary">Anmol Mittal</span>
+                      </h1>
+                    </a>
+                    <div class="subheading mb-5">Game Developer & Programmer·
+                      <a href="mailto:work.anmolmittal@gmail.com">work.anmolmittal@gmail.com</a>
+                    </div>
+                    <p class="mb-5">I am graduate from GGSIPU Dwarka, experienced in game programming and have a confident command over Unity3D, C#, C++, AI, Animations, UI, Optimization, Shader Graph, VR/AR and other technologies.(Looking for opportunities)</p>
+                    <ul class="list-inline list-social-icons mb-0">
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/gamedev_anmol/" target="_blank">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="tel:+919810838879">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/anmol-mittal-programmer/" target="_blank">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://github.com/Anmol-1903" target="_blank">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="https://anmol-1903.itch.io/" target="_blank">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-steam fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                    <p style="float: right" class="list-inline-item">
+                      <a href="CV.pdf" download="CV.pdf">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-download fa-stack-1x fa-inverse"></i>
+                        </span>Download pdf version
+                      </a>
+                    </p>
+                  </div>
+                </section>
+          
+                
+                <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publication">
+                    <div class="my-auto">
+                      <h2 class="mb-5">Latest Projects</h2>
+            
+                      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                        <div class="resume-content mr-auto">
+                          <a target="_blank" href="https://anmol-1903.itch.io/delivery-disasters"><h3 class="mb-0">Delivery Disasters <i class="fa fa-external-link"></i></h3></a>
+                          <div class="subheading mb-3">Driving game - Unity 3D</div>
+                          <p>A Unity3D game where the player will have to drive from house to house delivering the packages whilst planning strategically the route. The game has good graphics while still being highly optimized, many vehicles, day-night cycle, and support for many input types.</p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                          <span class="text-primary">Aug 5 2023 - Oct 28 2023</span>
+                        </div>
+                      </div> 
+          
+                    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                      <div class="resume-content mr-auto">
+                        <a target="_blank" href="https://anmol-1903.itch.io/rubber-bang"><h3 class="mb-0">Rubber Bang <i class="fa fa-external-link"></i></h3></a>
+                        <div class="subheading mb-3">Shooter game - Unity 3D</div>
+                        <p>A Unity3D multiplayer game where two players duel for the title "Best Finger Shooter". After every death, the player gets to choose a buff making him a little stronger, thus balancing the game. The game uses Photon Engine for matchmaking.</p>
+                      </div>
+                      <div class="resume-date text-md-right">
+                        <span class="text-primary">Jun 7 2023 - Jul 18 2023</span>
+                      </div>
+                    </div>
+              </section> 
+          
+                <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+                  <div class="my-auto">
+                    <h2 class="mb-5">Experience</h2>
+          
+                    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                      <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Sr. Game Programmer</h3>
+                        <div class="subheading mb-3">Insanity Crew, Delhi</div>
+                        <ul>
+                            <li>Building game aiming to spread awareness about climate change. Made using Unity3D and C# for programming, Blender for 3D art & adobe photoshop for 2D art.</li>
+                            <li>In-charge of leading a team of 7 developers. Used Git version control. </li>
+                            <li>Built the core mechanics of the game, boss AI for the boss level, level selector & audio settings</li>
+                            <li>Showcased the game at IGDC 2023, at the Insanity crew's booth. Youtuber's like LazyAssassin, Nikhil Malanker & Shreyas Mourya visited our booth.</li>
+                        </ul>
+                      </div>
+                      <div class="resume-date text-md-right">
+                        <span class="text-primary">Aug 1 2023 - Present</span>
+                      </div>
+                    </div>
+                  </section>
+          
+          
+                <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+                  <div class="my-auto">
+                    <h2 class="mb-5">Education</h2>
+          
+                    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                      <div class="resume-content mr-auto">
+                        <h3 class="mb-0">Guru Gobind Singh Indraprastha University, Dwarka</h3>
+                        <div class="subheading mb-3">Bachelor of Computer Applications</div>
+                        <div>Data Structure and Algorithms, Computer Graphics, Fundamentals of Computation, Linear Algebra, Engineering Graphics, Computational Methods in Engineering, Analytic Geometry, Physics, Calculus, Trigonometry, Algebra, Design Patterns, Software Architecture, Object Oriented Programming</div>
+                        <p><b>CPI: 8.6/10.0</b></p>
+                      </div>
+                      <div class="resume-date text-md-right">
+                        <span class="text-primary">2020 - 2023</span>
+                      </div>
+                    </div>
+          
+                  </div>
+                    <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                      <div class="resume-content mr-auto">
+                        <h3 class="mb-0">K.R. Mangalam University, Sohna</h3>
+                        <div class="subheading mb-3">Master of Computer Applications</div>
+                        <div> Advanced Data Structure and Algorithms, Artificial Intelligence, Machine Learning, Advanced Web Development, Advanced Computer Organization and Architecture, Neural Network, Natural Language Processing</div>
+                        <p><b>CPI: ---/10.0</b></p>
+                      </div>
+                      <div class="resume-date text-md-right">
+                        <span class="text-primary">2023 - 2025</span>
+                      </div>
+                    </div>
+                </section>
+          
+                <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+                  <div class="my-auto">
+                    <h2 class="mb-5">Skills</h2>
+                    
+                    <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+                    <ul class="list-inline list-icons">
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-scriptcs"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-javascript"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-java"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-python"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-html5"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-jquery"></i>
+                      </li>
+                    </ul>
+                    <div class="subheading mb-3">Game Engines &amp; IDEs</div>
+                    <ul class="list-inline list-icons">
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-unity_small"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-android"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-visualstudio"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-sublime"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-terminal"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="devicons devicons-python"></i>
+                      </li>
+                    </ul>
+                    <div class="subheading mb-3">Design &amp; Creativity</div>
+                    <ul class="list-inline list-icons">
+                      <li class="list-inline-item">
+                        <i class="fa fa-paint-brush"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-puzzle-piece"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-gamepad"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-book"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-pencil"></i>
+                      </li>
+                      <li class="list-inline-item">
+                        <i class="fa fa-music"></i>
+                      </li>
+                    </ul>
+                  </div>
+                </section>      
+          
+                <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+                  <div class="my-auto">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from developing games, I play a lot of games (good or bad) for research purposes and also love to read about them and their analysis. We could probabily talk for hours discussing about unique game mecahnics (Portal? or Viewfinder?).</p>
+                    <p>No matter how good or bad the game is, I play the game till the very end observing the environment and level design.</p>
+                    <p class="mb-0">I enjoy most of my time honing my creativity. I have inherent love with Music, Art and Crafts. I follow a number of sci-fi and fantasy genre movies and game series. I am also an aspiring observer and I spend a large amount of my free time exploring the latest technolgy advancements in game development world.</p>
+                  </div>
+                </section>
+          
+                <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="extracurricular">
+                  <div class="my-auto">
+                    <h2 class="mb-5">Extracurricular Activities</h2>
+                    <ul>
+                      <li><b>Lectured</b> on Unity3D for the ACE club at VIPS college during my bachelor for the first time.</li>
+                      <li><b>Mentored</b> 3 teams of indie game developers helping build their first game.</li>
+                      <li><b>Participated in NAAC+</b>. Submitted a game project for NAAC+ at VIPS, and got good exposure from the representatives.</li>
+                      <li><b>Participated in TechOn</b>. A hackathon which was held at VIPS. Won the first price of INR 15k.</li>
+                  </ul>
+                  </div>
+                </section>
+          
+              </div>
+        </div>
+        <!--
+            <iframe id="resume-iframe" src="resume/index.html" style="width: 100%; height: 100vh; border: 0!important;" onload="OnResumeIframeLoad()" ></iframe>
+        -->
     </div>
 
     <!-- About Section -->
-    <section id="about" style="padding: 100px 0">
+    <section id="about" style="padding: 100px 0; background-color: #DFF5FF;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -136,7 +401,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/Potrait.jpg" class="img-responsive img-circle" alt="Anmol Mittal, Game Programmer" title="Neeraj Thakur">
+                        <img src="img/Potrait.jpg" class="img-responsive img-circle" alt="Anmol Mittal, Game Programmer" title="Anmol Mittal">
                         <h4>Anmol Mittal</h4>
                         <p class="text-muted">Game Programmer</p>
                         <ul class="list-inline social-buttons">
@@ -146,7 +411,7 @@
                             </li>
                             <li><a target="_blank" href="https://www.linkedin.com/in/anmol-mittal-programmer/"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a target="_blank" href="https://linktr.ee/AnmolMittal">Linktree<i class="fa fa-steam"></i></a>
+                            <li><a target="_blank" href="https://linktr.ee/AnmolMittal"><i class="fa fa-link"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -189,20 +454,17 @@
     <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div onclick="ResetModalParams()" class="close-modal" data-dismiss="modal">
-                    <div class="lr"><div class="rl"></div></div>
-                </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
+                        <div class="">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2><span id="modal-projectname">Project Name</span></h2>
                                 <p class="item-intro text-muted"><span id="modal-projectsmalldescription">Small Description</span></p>
                                 <iframe id="modal-videoiframe" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                                <br><br><br>
+                                <br>
                                 <!-- Portfolio Corousel Go Here -->
-                                <div class="container" style="width: 100%;padding: 0%"> 
+                                <div class="container" style="width: 90vw;padding: 0%"> 
                                     <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
                                         <!-- Indicators -->
                                         <ol class="carousel-indicators">
@@ -231,16 +493,15 @@
                                 <div id="modal-projectlargedescription" class="text-justify">
                                     <p>Information goes here</p>
                                 </div>
-                                <br>
-                                <a id="modal-downloadlink" type="button" target="_blank" class="btn btn-xl"><i class="fa fa-link"></i>  Download Link</a>
                                 <br><br>
-                                <div>
-                                <button onclick="ShowPreviousProjectModal()" type="button" class="btn btn-primary" style="float: left;"><i class="fa fa-arrow-left"></i> Previous Project</button>
-                                <button onclick="ShowNextProjectModal()" type="button" class="btn btn-primary" style="float: right;">Next Project <i class="fa fa-arrow-right"></i></button>
+                                <div id="panel" style="display: flex; justify-content: space-around; align-items: center;  height: 3rem; width: 90%;">
+                                    <button onclick="ShowPreviousProjectModal()" type="button" class="btn"><i class="fa fa-arrow-left"></i>  Previous Project</button>
+                                    <button id="modal-downloadlink" type="button" target="_blank" class="btn"><i class="fa fa-link"></i>  Download Link</button>
+                                    <button onclick="ShowNextProjectModal()" type="button" class="btn">Next Project  <i class="fa fa-arrow-right"></i></button>                     
                                 </div>
                                 <br><br>
                                 <div>
-                                    <button onclick="ResetModalParams()" type="button" class="btn page-scroll" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                    <button onclick="ResetModalParams()" type="button" class="btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 </div>
                             </div>
                         </div>
