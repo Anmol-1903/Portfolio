@@ -109,6 +109,18 @@ function MoveNavBarWithScroll(){
     }
     
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
+    
+    smoothScrollLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            var target = this.getAttribute('href');
+            smoothScroll(target);
+        });
+    });
+});
 function smoothScroll(target) {
     const targetElement = document.querySelector(target);
     if (targetElement) {
