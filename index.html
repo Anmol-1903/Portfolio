@@ -45,15 +45,12 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Anmol Mittal</a>
+                <a class="navbar-brand" onclick="smoothScroll('#page-top')">Anmol Mittal</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a class="nav-text" onclick="smoothScroll('#page-top')"></a>
-                    </li>
                     <li>
                         <a class="nav-text" onclick="smoothScroll('#portfolio')">Portfolio</a>
                     </li>
@@ -61,20 +58,14 @@
                         <a class="nav-text" onclick="smoothScroll('#resume')">Resume</a>
                     </li>
                     <li>
-                        <a class="nav-text" onclick="smoothScroll('#about')">Contacts</a>
+                        <a class="nav-text" onclick="smoothScroll('#contacts')">Contacts</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
-    </nav>     
-    <!-- Loader -->
-    <div id="loader" class="fa-stack fa-4x" style="position: fixed; bottom: 0px; right: 0px;padding-bottom: 9%;padding-right: 16%;z-index: 1051;">
-        <i class="fa fa-gamepad fa-stack-1x text-primary"></i>
-        <i class="fa fa-circle-o-notch fa-stack-2x text-primary loader-spinner"></i>
-    </div>
-
+    </nav>    
     <!-- Header -->
     <header>
         <div class="container" class="TopThing">
@@ -89,17 +80,16 @@
                 
                 <button class="main-button">
                   <a onclick="smoothScroll('#portfolio')" class="button-link"><span>Check Portfolio</span></a> 
-                </button>
-                             
+                </button>          
             </div>
         </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+      </header>
+      <!-- Portfolio Grid Section -->
+      <section class="bg-light-gray" id="portfolio">
+        <br><br>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+          <div class="row">
+            <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Portfolio</h2>
                     <h3 class="section-subheading">Profesional and Personal Projects I was part of.</h3>
                 </div>
@@ -136,16 +126,17 @@
 
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
-    <div class="left-div"><br>
+    <div class="left-div">
       <div class="nav-items"><a href="#about" class="smooth-scroll">About</a></div>
       <div class="nav-items"><a href="#publication" class="smooth-scroll">Projects</a></div>
       <div class="nav-items"><a href="#experience" class="smooth-scroll">Experience</a></div>
       <div class="nav-items"><a href="#education" class="smooth-scroll">Education</a></div>
       <div class="nav-items"><a href="#skills" class="smooth-scroll">Skills</a></div>
-            <div class="nav-items"><a href="#interests" class="smooth-scroll">Interests</a></div>
-            <div class="nav-items"><a href="#extracurricular" class="smooth-scroll">Extracurricular</a></div>
+      <div class="nav-items"><a href="#interests" class="smooth-scroll">Interests</a></div>
+      <div class="nav-items"><a href="#extracurricular" class="smooth-scroll">Extra</a></div>
             <br></div>
             <div class="right-div">
+              <br>
               <h2 class="section-heading">Resume</h2>
             <div class="container-fluid p-0">
               <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
@@ -267,29 +258,28 @@
                     <div class="resume-item d-flex flex-column flex-md-row mb-5">
                       <div class="resume-content mr-auto">
                         <h3 class="mb-0">Guru Gobind Singh Indraprastha University, Dwarka</h3>
-                        <div class="subheading mb-3">Bachelor of Computer Applications</div>
-                        <div>Data Structure and Algorithms, Computer Graphics, Fundamentals of Computation, Linear Algebra, Engineering Graphics, Computational Methods in Engineering, Analytic Geometry, Physics, Calculus, Trigonometry, Algebra, Design Patterns, Software Architecture, Object Oriented Programming</div>
+                        <div class="subheading mb-3"><i>Bachelor of Computer Applications</i></div>
+                        <p>Data Structure and Algorithms, Computer Graphics, Fundamentals of Computation, Linear Algebra, Engineering Graphics, Computational Methods in Engineering, Analytic Geometry, Physics, Calculus, Trigonometry, Algebra, Design Patterns, Software Architecture, Object Oriented Programming</p>
                         <p><b>CPI: 8.6/10.0</b></p>
                       </div>
                       <div class="resume-date text-md-right">
                         <span class="text-primary">2020 - 2023</span>
                       </div>
                     </div>
-          
+                    <br>
                   </div>
-                    <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                      <div class="resume-content mr-auto">
-                        <h3 class="mb-0">K.R. Mangalam University, Sohna</h3>
-                        <div class="subheading mb-3">Master of Computer Applications</div>
-                        <div> Advanced Data Structure and Algorithms, Artificial Intelligence, Machine Learning, Advanced Web Development, Advanced Computer Organization and Architecture, Neural Network, Natural Language Processing</div>
-                        <p><b>CPI: ---/10.0</b></p>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">2023 - 2025</span>
-                      </div>
+                  <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                    <div class="resume-content mr-auto">
+                      <h3 class="mb-0">K.R. Mangalam University, Sohna</h3>
+                      <div class="subheading mb-3"><i>Master of Computer Applications</i></div>
+                      <p> Advanced Data Structure and Algorithms, Artificial Intelligence, Machine Learning, Advanced Web Development, Advanced Computer Organization and Architecture, Neural Network, Natural Language Processing.<b id="publication"></b></p>
+                      <p><b>CPI: ---/10.0</b></p>
                     </div>
+                    <div class="resume-date text-md-right">
+                      <span class="text-primary">2023 - 2025</span>
+                    </div>
+                  </div>
                 </section>
-          
                 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
                   <div class="my-auto">
                     <h2 class="mb-5">Skills</h2>
@@ -303,37 +293,31 @@
                     
                   </div>
                 </section>      
-          
                 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
                   <div class="my-auto">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from developing games, I play a lot of games (good or bad) for research purposes and also love to read about them and their analysis. We could probabily talk for hours discussing about unique game mecahnics (Portal? or Viewfinder?).</p>
+                    <h2 class="mb-5">Interests</h2></b>
+                    <p>Apart from developing games, I play a lot of games (good or bad) for research purposes and also love to read about them and their analysis. <b id="experience"></b>We could probabily talk for hours discussing about unique game mecahnics (Portal? or Viewfinder?).</p>
                     <p>No matter how good or bad the game is, I play the game till the very end observing the environment and level design.</p>
                     <p class="mb-0">I enjoy most of my time honing my creativity. I have inherent love with Music, Art and Crafts. I follow a number of sci-fi and fantasy genre movies and game series. I am also an aspiring observer and I spend a large amount of my free time exploring the latest technolgy advancements in game development world.</p>
                   </div>
                 </section>
-          
                 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="extracurricular">
                   <div class="my-auto">
                     <h2 class="mb-5">Extracurricular Activities</h2>
                     <ul>
-                      <li><b>Lectured</b> on Unity3D for the ACE club at VIPS college during my bachelor for the first time.</li>
-                      <li><b>Mentored</b> 3 teams of indie game developers helping build their first game.</li>
-                      <li><b>Participated in NAAC+</b>. Submitted a game project for NAAC+ at VIPS, and got good exposure from the representatives.</li>
-                      <li><b>Participated in TechOn</b>. A hackathon which was held at VIPS. Won the first price of INR 15k.</li>
-                  </ul>
+                      <li><b>Won TechOn Project Showcase</b>. A hackathon which was held at VIPS. <b id="education"></b>Won the the prize amount of INR 15k.</li>
+                      <li><b>Secured 2nd place </b> in Tech Horizon Project Showcase held at K.R. Mangalam University as a solo team. Won a prize amount of INR 4k.</li>
+                      <li><b>Participated in NAAC+</b>. Showcased a game project for NAAC+ at VIPS, and got good exposure from the representatives.</li>
+                      <li><b>Lectured</b> students to gain insights on Unity3D for the ACE club at VIPS college during my UG for the first time.</li>
+                      <li><b>Mentored</b> 3 teams of indie game developers helping build their first game, teaching them fundamentals of game development.</li>
+                    </ul></b>
                   </div>
                 </section>
-          
               </div>
-        </div>
-        <!--
-            <iframe id="resume-iframe" src="resume/index.html" style="width: 100%; height: 100vh; border: 0!important;" onload="OnResumeIframeLoad()" ></iframe>
-        -->
-    </div>
-
+          </div>
+      </div>
     <!-- About Section -->
-    <section id="about" style="padding: 100px 0; background-color: #DFF5FF;">
+    <section  id="contacts" style="padding: 100px 0; background-color: #DFF5FF;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -346,7 +330,7 @@
                     <div class="team-member">
                         <img src="img/Potrait.jpg" class="img-responsive img-circle" alt="Anmol Mittal, Game Programmer" title="Anmol Mittal">
                         <h4>Anmol Mittal</h4>
-                        <p class="text-muted">Game Programmer</p>
+                        <p class="text-muted">Game Developer</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="mailto:work.anmolmittal@gmail.com"><i class="fa fa-envelope"></i></a>
                             </li>
@@ -387,7 +371,6 @@
             </div>
         </div>
     </section>
-
     <footer>
         <p class="text-muted"><i>Thank you for visiting my portfolio.<br>I hope you have a great day!</i></p>
     </footer>
@@ -403,7 +386,8 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2 class="modal-projecttitle"><span id="modal-projectname">Project Name</span></h2>
-                                <p class="item-intro text-muted"><span id="modal-projectsmalldescription">Small Description</span></p>
+                                <p class="item-intro"><span id="modal-projectsmalldescription">Small Description</span></p>
+                                <p class="text-muted">Gameplay Video</p>
                                 <iframe id="modal-videoiframe" width="1280" height="720" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                 <br><br>
                                 <p class="text-muted">In-Game Screenshots</p>
@@ -440,9 +424,10 @@
                                 <br><br>
                                 <div id="panel" style="display: flex; justify-content: space-around; align-items: center;  height: 3rem; width: 90%;">
                                     <button onclick="ShowPreviousProjectModal()" type="button" class="btn"><i class="fa fa-arrow-left"></i>  Previous Project</button>
-                                    <button id="modal-downloadlink" type="button" target="_blank" class="btn"><i class="fa fa-link"></i>  Download Link</button>
                                     <button onclick="ShowNextProjectModal()" type="button" class="btn">Next Project  <i class="fa fa-arrow-right"></i></button>                     
-                                </div>
+                                  </div>
+                                  <br>
+                                  <button id="modal-downloadlink" type="button" target="_blank" class="btn"><i class="fa fa-link"></i>  Download Link</button>
                                 <br><br>
                                 <div>
                                     <button onclick="ResetModalParams()" type="button" class="btn-close" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>

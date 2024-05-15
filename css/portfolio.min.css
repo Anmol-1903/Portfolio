@@ -39,7 +39,7 @@ footer{
 .nav-items a{
   font-family:'Courier New', Courier, monospace;
   font-weight: 900;
-  font-size: large;
+  font-size: medium;
   color: #DFF5FF;
 }
 .resume-scroller{
@@ -47,8 +47,8 @@ footer{
   justify-content: space-between;
   align-items: flex-start;
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-bottom: 0px;
   background-color: #DFF5FF;
 }
 .left-div{ 
@@ -57,10 +57,20 @@ footer{
   justify-content: space-between;
   flex-direction: column;
   position: sticky;
-  top: 2px;
+  top: 70px;
   left: 0;
   width:25%;
+  padding-top: 25px;
   background-color: #378CE7;
+}
+i{
+  font-size: 20px;
+}
+.left-div .nav-items a{
+  font-size: 24px;
+  color: #DFF5FF;
+  background-color: #378CE7;
+  text-decoration: none;
 }
 .left-div .nav-items a:focus,
 .left-div .nav-items a:hover{
@@ -231,8 +241,10 @@ p {
     line-height: 1.75
 }
 
-p.large {
-    font-size: 16px
+#modal-projectlargedescription, p.large {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px
 }
 
 .img-centered {
@@ -282,12 +294,12 @@ p.large {
 }
 .container .navbar-header a{
   color: #DFF5FF;
-  font-size: x-large;
+  font-size: medium;
 }
 .container .navbar-header a:focus,
 .container .navbar-header a:hover{
   color: #ffffff;
-  font-size: x-large;
+  font-size: medium;
   font-weight: bold;
 }
 .navbar-header,
@@ -298,7 +310,7 @@ p.large {
     color: #0000ff
 }
 .text-muted, p, a, li, .subheading {
-  font-size: large;
+  font-size: medium;
 }
 .navbar-custom .nav li a,
 .navbar-custom .navbar-toggle {
@@ -408,7 +420,7 @@ header .intro-text .intro-heading {
     font-family: "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 4rem;
     line-height: 50px;
     margin-bottom: 25px
 }
@@ -423,7 +435,7 @@ header .intro-text .intro-heading {
         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
         overflow: visible;
-        font-size: 45px;
+        font-size: 36px;
         line-height: 40px;
         margin-bottom: 25px
     }
@@ -433,7 +445,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-weight: 700;
         overflow: visible;
-        font-size: 10rem;
+        font-size: 5rem;
         line-height: 75px;
         margin-bottom: 50px
     }
@@ -450,7 +462,7 @@ section {
 }
 
 h2.section-heading {
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
     color: #00004f;
 }
@@ -644,7 +656,7 @@ ul.social-buttons li a:hover {
     margin: 20px 0 30px;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 16px
+    font-size: 18px
 }
 
 .portfolio-modal .modal-content ul.list-inline {
@@ -720,20 +732,6 @@ img.portfolio-img-heightfix {
     height: 300px;
     object-fit: cover;
 }
-
-.loader-spinner {
-    animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
   .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -766,7 +764,7 @@ h2{
   left: -2px;
   width: calc(100% + 4px);
   height: calc(100% - 12px);
-  background-color: #212121;
+  background-color: #378CE7;
   transition: 0.3s ease-in-out;
   transform: scaleY(1);
 }
@@ -780,9 +778,9 @@ h2{
   position: absolute;
   width: calc(100% - 12px);
   left: 6px;
-  top: -2px;
-  height: calc(100% + 4px);
-  background-color: #212121;
+  top: -8px;
+  height: calc(100% + 16px);
+  background-color: #378CE7;
   transition: 0.3s ease-in-out;
   transform: scaleX(1);
   transition-delay: 0.5s;
@@ -801,17 +799,17 @@ h2{
 .button-link span {
   position: relative;
   color: #fefefe;
-  font-size: large;
+  font-size: medium;
   z-index: 3;
 }
 .project-title{
-    font-size: x-large;
+    font-size: medium;
     text-decoration: underline;
     font-weight: 700;
     color: #00004f;
   }
 .project-info{
-    font-size: large;
+    font-size: medium;
     color: #DFF5FF;
 }
 .main-button {
@@ -819,7 +817,7 @@ h2{
   height: 10rem;
   background-color: none;
   text-decoration: none;
-  background-color: #212121;
+  background-color: #378CE7;
   border: none;
 }
 .intro-text{
@@ -931,4 +929,9 @@ h2{
   
   .btn-close:hover {
     box-shadow: inset 0px 0px 25px #e73737;
+  }
+
+  .space-filler{
+    height: 0px;
+    background-color: #000;
   }

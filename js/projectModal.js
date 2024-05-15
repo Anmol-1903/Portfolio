@@ -64,7 +64,7 @@ function SetModalParams(id){
         var elem= document.getElementById("modal-downloadlink");
         if(ProjectDetail.DownloadLink){
             $(elem).show();
-            elem.setAttribute('href', ProjectDetail.DownloadLink);
+            elem.setAttribute('onclick', "window.open('"+ProjectDetail.DownloadLink+"', '_blank')");
         }
         else{
             $(elem).hide();
@@ -72,7 +72,7 @@ function SetModalParams(id){
         elem= document.getElementById("modal-videoiframe");
         if(ProjectDetail.EmbedVideoLinkID){
             $(elem).show();
-            elem.setAttribute('src', 'https://www.youtube.com/embed/'+ProjectDetail.EmbedVideoLinkID+'/?mute=1');
+            elem.setAttribute('src', 'https://www.youtube.com/embed/'+ProjectDetail.EmbedVideoLinkID+'?autoplay=1&mute=1');
             elem.setAttribute('onload',"hideLoader()");
         }
         else{

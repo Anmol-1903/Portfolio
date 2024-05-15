@@ -1,8 +1,8 @@
 var iframeDoc;
 var sideNav;
 function OnResumeIframeLoad(){    
-    iframeDoc = document.getElementById('resume-iframe').contentWindow.document;
-    sideNav=iframeDoc.getElementById('sideNav');
+    iframeDoc = document.getElementById('right-div').contentWindow.document;
+    sideNav=iframeDoc.getElementById('left-div');
     window.scrollTo(0,0); 
     document.body.setAttribute('onscroll', 'MoveNavBarWithScroll()');
     $(document.getElementById('loader')).hide();
@@ -10,8 +10,6 @@ function OnResumeIframeLoad(){
     SetCallBacks();
 
     $(window).resize(function() {ResizeIFrame();}); 
-    // window.setTimeout(function() {//delay because portfolio tiles are being setup
-    // }, 300);   
 }
 function SetCallBacks(){
     var about;
@@ -40,8 +38,8 @@ function SetCallBacks(){
     interests.onclick = function(){ScrollToElem("interests");}
 
     var blogs;
-    blogs = iframeDoc.getElementById('ScrollTo-blogs');
-    blogs.onclick = function(){ScrollToElem("blogs");}
+    blogs = iframeDoc.getElementById('ScrollTo-extracurricular');
+    blogs.onclick = function(){ScrollToElem("extracurricular");}
 }
 function ScrollToElem(elementid){
     var elem = iframeDoc.getElementById(elementid);
@@ -117,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', function(event) {
             event.preventDefault();
             var target = this.getAttribute('href');
-            smoothScroll(target);
+            smoothScrollNavBar(target);
         });
     });
 });
@@ -126,6 +124,15 @@ function smoothScroll(target) {
     if (targetElement) {
         window.scrollTo({
             top: targetElement.offsetTop,
+            behavior: "smooth"
+        });
+    }
+}
+function smoothScrollNavBar(target) {
+    const targetElement = document.querySelector(target);
+    if (targetElement) {
+        window.scrollTo({
+            top: targetElement.offsetTop + 1485,
             behavior: "smooth"
         });
     }
