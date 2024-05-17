@@ -216,9 +216,12 @@ i{
 }
 
 body {
-    overflow-x: hidden;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    webkit-tap-highlight-color: #378CE7;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Hide default scrollbar */
+  position: relative;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  webkit-tap-highlight-color: #378CE7;
 }
 h1,
 h2,
@@ -362,7 +365,7 @@ p {
 @media (min-width:768px) {
   .navbar-custom {
     background-color: transparent;
-      padding: 25px 0;
+      padding:25px 0;
       -webkit-transition: padding .3s;
       -moz-transition: padding .3s;
       transition: padding .3s;
@@ -935,3 +938,30 @@ h2{
     height: 0px;
     background-color: #000;
   }
+
+  ::-webkit-scrollbar {
+    width: 0px; /* Set width of scrollbar */
+  }
+  * {
+    scrollbar-width: none;
+  }
+
+
+.progress-container {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  height: 5px;
+  background: transparent;
+}
+
+.progress-bar {
+  height: 5px;
+  width: 0%;
+}
+
+.content {
+  padding: 100px 0;
+  margin: 50px auto 0 auto;
+  width: 80%;
+}
