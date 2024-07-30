@@ -273,15 +273,18 @@
                     <div class="form-header">
                         <strong>Message me</strong>
                     </div>
-                    <form id="myForm" target="_self" action="https://formspree.io/f/mrbzqere" method="POST">
+                    <form id="myForm" target="_self" action="https://formsubmit.co/913dd20d51112baa53dde60dd375d91e" method="POST">
                         <div class="input-line">
                             <input id="name" type="text" name="name" placeholder="Name" class="input-name" required>
                             <input id="email" type="email" name="email" placeholder="Email" class="input-name" required>
                             <input id="subject" type="subject" name="subject" placeholder="Subject" class="input-name" required>
 
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="thankyou.html">
                         </div>
                         <textarea id="body" class="input-textarea" name="message" placeholder="Message" required></textarea>
-                        <button type="submit" id="thank-Link" value="send">Submit</button>
+                        <button type="submit" id="thank-Link" value="send" onclick="OpenPage()">Submit</button>
                     </form>
                 </div>
                     
@@ -327,6 +330,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function OpenPage(){
+            window.location.href = 'thankyou.html';
+        }
+    </script>
 
     <!--all the divisions-->
     <script src="js/jquery.min.js"></script>
