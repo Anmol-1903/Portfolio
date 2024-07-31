@@ -1,9 +1,3 @@
-/*!
-  * Item: Willy Wonka Theme
-  * Description: Personal Portfolio Website Template
-  * Author/Developer: Sujal
-  * Version: v1
-  */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
@@ -38,6 +32,7 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
   html{
     background: #101010;
     
@@ -208,7 +203,7 @@ body{
 }
 .logo img:hover{
     opacity: 1;
-    transform: rotate(-45deg);
+    transform: scale(1.5);
 }
 #navigation-bar img{
     height: 80px;
@@ -221,7 +216,7 @@ body{
 }
 #navigation-bar img:hover{
     opacity: 1;
-    transform:rotate(-45deg);
+    transform: scale(1.5);
 }
 .header-image img{
     height: 100vh;
@@ -299,21 +294,20 @@ body{
         z-index: 0;
     }
 }
-.social-media-links{
+.social-media-links {
     height: 100vh;
     position: absolute;
     z-index: 2;
     padding: 60px;
-    width: auto;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: center;
 }
 .social-media{
     color: white;
-    width:  22px;
-    ;
+    width:  42px;
     opacity: .6;
     margin: 8px;
     transition: all .4s ease;
@@ -485,6 +479,11 @@ body{
     font-size: 18px;
     font-weight: 200;
 }
+.about-second-line .color{
+    opacity: .8;
+    font-size: 18px;
+    font-weight: 200;
+}
 .about-main{
     display: flex;
     align-items: center;
@@ -523,6 +522,21 @@ body{
 .cv a button{
     background: transparent;
     border:none;
+    padding: 25px 35px;
+    color: whitesmoke;
+    outline: none;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+
+}
+.cv a button{
+    background: transparent;
+    border:none;
     padding: 15px 30px;
     color: whitesmoke;
     background: #c70039;
@@ -539,6 +553,20 @@ body{
 .cv a button:hover{
     opacity: 1;
     transform: scale(1.05);
+}
+.cv a button{
+    border:none;
+    padding: 20px 30px;
+    color: whitesmoke;
+    outline: none;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    transition: all .4s ease;
+
 }
 #services{
     position: relative;
@@ -636,9 +664,10 @@ body{
     color: white;
 }
 #skills-section .description {
+    opacity: 0.8;
     list-style-type: disc;
     font-size: 24px;
-    width: 768px;
+    width: 800px;
     margin-bottom: 48px;
 }
 #skills{
@@ -827,13 +856,16 @@ padding-bottom: 40px;
 }
 
 .portfolio-text a{
-    color: red;
+    color: #c70039;
     text-decoration: none;
     transition: all .5s;
+    font-weight: 200;
 }
 
 .portfolio-text a:hover {
-    color: #ff2563;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #ff0000;
 }
 
 .portfolio-text h2{
@@ -849,50 +881,6 @@ padding-bottom: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
     padding: 20px;
-}
-.portfolio-text button{
-    font-size: 16px;
-    opacity: .8;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
-    padding: 10px 20px;
-    background:transparent;
-    color:#c70039;
-    transition: all .4s ease;
-    outline: none;
-    margin: 20px;
-    border: 1.5px solid #c70039;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    transition: all .4s ease;
-}
-.portfolio-text button::before{
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 200%;
-    transform: rotate(-15deg) translateY(-20px);
-    top: 0;
-    left: 0;
-    z-index: 3;
-    background: #c70039;
-    transition: all .7s ease;
-}
-.portfolio-text button:hover{
-    opacity: 1;
-    color:whitesmoke;
-}
- button:hover .index{
-     position: relative;
-    z-index: 4;
-}
-.portfolio-text button:hover::before{
-    opacity: 1;
-    width: 120%;
-}
-.button{
-    text-align: center;
 }
     .portfolio-image video{
         height: 400px;
@@ -1373,20 +1361,13 @@ form button:hover{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-@keyframes rgb-cycle {
-    0% { filter: hue-rotate(0deg); }
-    25% { filter: hue-rotate(90deg); }
-    50% { filter: hue-rotate(180deg); }
-    75% { filter: hue-rotate(270deg); }
-    100% { filter: hue-rotate(360deg); }
-  }
 .monster{
-    width: 50%; /* Ensure the image fits within the container */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Adjust image to cover the container */
-    border-radius: 8px; /* Match card's border radius if desired */
-    animation: rgb-cycle 5s infinite linear;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 50%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 8px;
 }
 .thank-you-container h1 {
     color: #c70039;
@@ -1406,6 +1387,61 @@ form button:hover{
     border-radius: 5px;
     font-weight: bold;
 }
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    border: none;
+    background: #c70039;
+    background: linear-gradient(
+      to right,
+      #c70039,#ff2020
+    );
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0px 14px 56px -11px #c70039;
+    width: 11em;
+    padding: 0.7em;
+    transition: all 0.4s;
+    cursor: pointer;
+  }
+  
+  .button svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .button svg path {
+    fill: white
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+  
+  .button span:after {
+    content: 'for free';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+  }
+  
+  .button:hover span {
+    padding-right: 3.80em;
+  }
+  
+  .button:hover span:after {
+    opacity: 4;
+    right: 0;
+  }
 
 
 
@@ -1419,8 +1455,10 @@ For devices with smaller width like mobile phone
 
 
 
-
 @media only screen and (max-width: 550px){
+
+    
+
     .header-content{
         height: 100vh;
         width: 100%;
@@ -1464,7 +1502,7 @@ For devices with smaller width like mobile phone
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100vh;
         width: 200%;
         background-color: #c70039;
         opacity: 1;
@@ -1532,6 +1570,17 @@ For devices with smaller width like mobile phone
     .about-second-line{
         opacity: .8;
         font-size: 15px;
+    }
+    .about-second-line .color{
+        opacity: .8;
+        font-size: 15px;
+    }
+    #skills-section .description {
+        opacity: 0.8;
+        list-style-type: disc;
+        font-size: 24px;
+        width: 768px;
+        margin-bottom: 48px;
     }
     .about-main{
         display: flex;
@@ -1919,7 +1968,7 @@ for tabs and large phones
         display: none;
     }
     #breaker{
-        height: 50vh;
+        height: 100vh;
         width: 200%;
         background-color: #c70039;
         opacity: 1;
@@ -1985,7 +2034,11 @@ for tabs and large phones
     }
     .about-second-line{
         opacity: .8;
-        font-size: 24px;
+        font-size: 15px;
+    }
+    .about-second-line .color{
+        opacity: .8;
+        font-size: 15px;
     }
     .about-main{
         display: flex;
@@ -2010,20 +2063,7 @@ for tabs and large phones
         padding-top: 10px;
         border-radius: 40px;
     }
-    .cv a button{
-        border:none;
-        padding: 20px 30px;
-        color: whitesmoke;
-        outline: none;
-        font-size:20px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 8px;
-        font-weight: 400;
-        cursor: pointer;
-        position: relative;
-        transition: all .4s ease;
     
-    }
     .service{
         height:auto;
         width:45%;
@@ -2370,25 +2410,22 @@ for tabs and large phones
      .about-first-line .color{
          font-size: 46px;
      }
-    .about-second-line{
-        opacity: .8;
+     .about-second-line{
+         opacity: .8;
+         font-size: 28px;
+         font-weight: 200;
+     }
+     .about-second-line .color{
+         opacity: .8;
+         font-size: 28px;
+         font-weight: 200;
+     }
+    #skills-section .description {
+        opacity: 0.8;
+        list-style-type: disc;
         font-size: 28px;
-        font-weight: 200;
-    }
-    .cv a button{
-        background: transparent;
-        border:none;
-        padding: 25px 35px;
-        color: whitesmoke;
-        outline: none;
-        font-size:30px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 4px;
-        font-weight: 400;
-        cursor: pointer;
-        position: relative;
-        transition: all .4s ease;
-    
+        width: 1200px;
+        margin-bottom: 48px;
     }
     .service{
         height:400px;
