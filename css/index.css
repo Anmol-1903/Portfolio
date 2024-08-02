@@ -126,7 +126,7 @@ body{
     width: 50%;
     top:0;
     right:0;
-    background-color:dodgerblue;
+    background-color:#c70039;
     transition: all .5s ease;
 
 }
@@ -140,7 +140,7 @@ body{
     width: 75%;
     top:0;
     right:0;
-    background-color:dodgerblue;
+    background-color:#ffffff;
     transition: all .3s ease;
 }
 .menubar .third-span{
@@ -153,7 +153,7 @@ body{
     width: 100%;
     top:0;
     right:0;
-    background-color:dodgerblue;
+    background-color:#c70039;
     transition: all .3s ease;
 }
 .menubar:hover .second-span::before , .menubar:hover .first-span::before {
@@ -174,9 +174,11 @@ body{
 }
 .close-first {
     transform: rotate(45deg);
+    background-color: #c70039;
 }
 .close-second{
     transform: rotate(-45deg);
+    background-color: white;
 }
 .navigation-close{
     position: absolute;
@@ -184,7 +186,7 @@ body{
     right:4%;
     padding: 10px;
     cursor: pointer;
-    transition: all.3s ease;
+    transition: all .3s ease;
     opacity: .8;
 }
 .navigation-close:hover{
@@ -328,8 +330,14 @@ body{
     text-decoration: none;
     color: white;
     font-size: 30px;
-    opacity: .7;
+    opacity: .5;
     transition: all .4s ease;
+}
+.navigation-links a .colorize {
+    transition: color 0.3s ease;
+}
+.navigation-links a:hover .colorize{
+    color: #c70039;
 }
 .navigation-links a:hover{
     opacity: 1;
