@@ -486,10 +486,18 @@ body{
     opacity: .8;
     font-size: 18px;
     font-weight: 200;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .about-second-line .color{
     opacity: .8;
     font-size: 18px;
+    font-weight: 200;
+}
+.edu .about-second-line .color{
+    opacity: .8;
+    font-size: 22px;
     font-weight: 200;
 }
 .about-main{
@@ -593,7 +601,6 @@ body{
     padding-bottom: 30px;
     padding-top: 30px;
     font-weight: 900;
-
 }
 .about-first-paragraph {
     display: flex;
@@ -846,8 +853,8 @@ body{
     justify-content: center;
     padding: 1.5%;
     padding-right: 2%;
-padding-top: 50px;
-padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .portfolio-text{
@@ -861,6 +868,7 @@ padding-bottom: 40px;
     background: #080808;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 1px solid #c70039;
 }
 
 .portfolio-text a{
@@ -890,15 +898,16 @@ padding-bottom: 40px;
     font-weight: 200;
     padding: 20px;
 }
-    .portfolio-image video{
-        height: 400px;
-        width: 100%;
-        position: relative;
-    }
-    .portfolio-image{
-        height: 400px;
-        width: 40%;
-    }
+.portfolio-image video{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #c70039;
+}
+.portfolio-image{
+    height: 400px;
+    width: 40%;
+}
 .portfolio-image video::before{
     content: "";
     height: 100%;
@@ -1566,9 +1575,6 @@ For devices with smaller width like mobile phone
         padding: 10px;
         font-weight: 400;
     }
-    .about-first-paragraph .color{
-        font-size: 30px;
-    }
     .about-first-line{
         font-size: 28px;
         opacity: 1;
@@ -1582,6 +1588,10 @@ For devices with smaller width like mobile phone
     .about-second-line .color{
         opacity: .8;
         font-size: 15px;
+    }
+    .about-second-line .color{
+        opacity: .8;
+        font-size: 18px;
     }
     #skills-section .description {
         opacity: 0.8;
@@ -2031,9 +2041,6 @@ for tabs and large phones
         padding: 25px;
         font-weight: 400;
     }
-    .about-first-paragraph .color{
-        font-size: 35px
-    }
     .about-first-line{
         font-size: 32px;
         opacity: 1;
@@ -2047,6 +2054,10 @@ for tabs and large phones
     .about-second-line .color{
         opacity: .8;
         font-size: 15px;
+    }
+    .about-second-line .color{
+        font-size: 18px;
+        font-weight: 200;
     }
     .about-main{
         display: flex;
@@ -2426,6 +2437,11 @@ for tabs and large phones
      .about-second-line .color{
          opacity: .8;
          font-size: 28px;
+         font-weight: 200;
+     }
+     .about-second-line .color{
+         opacity: .8;
+         font-size: 32px;
          font-weight: 200;
      }
     #skills-section .description {
