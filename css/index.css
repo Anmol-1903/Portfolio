@@ -68,6 +68,17 @@ body{
     position:relative;
     display: block;
 }
+#header-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../Photos/MainBG.jpg");
+    background-size: cover;
+    background-position: 52% 50%;
+    filter: brightness(50%);
+}
 #particles{
     position: absolute;
     top: 0;
@@ -1473,8 +1484,6 @@ For devices with smaller width like mobile phone
 
 
 @media only screen and (max-width: 550px){
-
-    
 
     .header-content{
         height: 100vh;
