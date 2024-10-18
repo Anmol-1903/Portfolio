@@ -202,3 +202,13 @@ if(document.layers){
   else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
 
   document.oncontextmenu=new Function("return false")
+
+
+  document.addEventListener("copy", (event) => {
+    const selectedText = window.getSelection().toString();
+    event.clipboardData.setData(
+      "text/plain",
+      "https://anmolmittal.vercel.app"
+    );
+    event.preventDefault();
+  });
