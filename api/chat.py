@@ -12,7 +12,7 @@ with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
 
 FILE = "data.pth"
-data = torch.load(FILE, weights_only=True)
+data = torch.load(FILE, map_location=device)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
@@ -24,8 +24,6 @@ model_state = data["model_state"]
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
-
-bot_name = "Sam"
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -47,7 +45,6 @@ def get_response(msg):
     
     return return_random_response()
 
-import random
 def return_random_response():
     responses = [
         "Could you rephrase that please?",
@@ -61,11 +58,9 @@ def return_random_response():
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")
     while True:
-        # sentence = "do you use credit cards?"
         sentence = input("You: ")
         if sentence == "quit":
             break
 
         resp = get_response(sentence)
         print(resp)
-

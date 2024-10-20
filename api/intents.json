@@ -8,7 +8,8 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Yo"
       ],
       "responses": [
         "Hello, dev! Ready to press start on today's coding adventure?",
@@ -50,7 +51,7 @@
   },
   {
     "tag": "my_skills",
-    "patterns": ["What are your skills?", "Tell me about your skills", "What can you do?", "What skills do you have?"],
+    "patterns": ["What are your skills?", "Tell me about your skills", "What can you do?", "What skills do you have?", "skills"],
     "responses": [
         "I'm proficient in Unity and C# scripting, wielding gaming physics engines to create immersive experiences. I excel in optimizing performance, coding, debugging, and testing games. I develop AI for various genres, from Horror to FPS, Racing, and Strategy, and I can handle both 2D and 3D projects. Plus, I thrive under pressure with solid communication skills!",
         "As a game developer, I master Unity and C# scripting, focusing on gaming physics engines for smooth gameplay. I shine in optimizing performance and have a knack for coding, debugging, and testing across genres like Horror, FPS, Racing, and Strategy. Whether it's 2D or 3D, I'm ready for any challenge while maintaining good communication and adaptability!",
@@ -59,7 +60,7 @@
   },
   {
     "tag": "other_skills",
-    "patterns": ["What other skills do you have?", "Do you have any additional skills?", "Tell me about your other skills", "What else can you do?"],
+    "patterns": ["What other skills do you have?", "Do you have any additional skills?", "Tell me about your other skills", "What else can you do?", "other skills"],
     "responses": [
         "I possess strong project management skills, planning and executing e-learning projects like a seasoned game designer navigating a complex quest. I'm well-versed in programming languages like HTML5, CSS, JavaScript, and Python, and I design user-friendly interfaces that enhance the learner experience, making it as engaging as an epic adventure!",
         "Beyond my game development expertise, I excel in project management, orchestrating e-learning projects with the precision of a game dev managing resources. I know my way around HTML5, CSS, JavaScript, and Python, and I'm all about crafting user-friendly interfaces that level up the learning experience!",
@@ -68,7 +69,7 @@
   },
   {
     "tag": "academic_bg",
-    "patterns": ["What's your academic background?", "Tell me about your education", "What is your educational history?", "Where did you study?"],
+    "patterns": ["What's your academic background?", "Tell me about your education", "What is your educational history?", "Where did you study?", "school", "college", "studies"],
     "responses": [
         "I completed my High School Education at Rotary Public School, Gurgaon, finishing with a solid 76% in 2020. Then, I leveled up my skills with an Undergraduate Degree at Vivekananda Institute of Professional Studies, Pitampura, graduating in 2023 with an impressive 8.8 CGPA. Right now, I'm on a quest for knowledge pursuing a Postgraduate Degree at K.R. Mangalam University, Sohna, aiming to complete it in 2025!",
         "My educational journey began at Rotary Public School, Gurgaon, where I finished high school with a respectable 76% in 2020. I then embarked on my Undergraduate Degree adventure at Vivekananda Institute of Professional Studies, Pitampura, earning an 8.8 CGPA in 2023. Currently, I'm leveling up my expertise in a Postgraduate Degree at K.R. Mangalam University, Sohna, set to finish in 2025!",
@@ -77,7 +78,7 @@
   },
   {
     "tag": "extracurricular",
-    "patterns": ["What extracurricular activities have you done?", "Tell me about your extracurriculars", "What else have you been involved in?", "Any additional activities outside of studies?"],
+    "patterns": ["What extracurricular activities have you done?", "Tell me about your extracurriculars", "What else have you been involved in?", "Any additional activities outside of studies?", "extra"],
     "responses": [
         "Once, I secured 2nd place in the Tech Horizon Project Showcase at KRMU and won a prize of INR 4k—definitely a win for the portfolio!",
         "I also won the TechOn Project Showcase hackathon organized at VIPS, bringing home a prize of INR 15k. Talk about leveling up!",
@@ -88,7 +89,7 @@
   },
   {
     "tag": "contact_anmol",
-    "patterns": ["How do I contact Anmol?", "What's the best way to reach Anmol?", "How can I get in touch with Anmol?", "Can I contact Anmol?", "How do I contact you?", "What's the best way to reach you?", "How can I get in touch with you?", "Can I contact you?"],
+    "patterns": ["How do I contact Anmol?", "What's the best way to reach Anmol?", "How can I get in touch with Anmol?", "Can I contact Anmol?", "How do I contact you?","contact", "What's the best way to reach you?", "How can I get in touch with you?", "Can I contact you?"],
     "responses": [
         "To contact me, just open the navbar by clicking the icon in the top right corner, then click 'Contact.' You can send emails directly to me from there—easy peasy!",
         "Getting in touch with me is simple! Just click the icon in the top right to open the navbar, then select 'Contact.' You can send an email directly to me from that page!",
@@ -98,6 +99,7 @@
   {
     "tag": "socials",
     "patterns": [
+      "Socials",
       "What are Anmol's socials?",
       "How can I find Anmol on social media?",
       "Where can I follow Anmol?",
@@ -126,6 +128,7 @@
   {
     "tag": "freelance",
     "patterns": [
+        "freelance",
         "Is Anmol open to freelance opportunities?",
         "Can I hire Anmol for freelance work?",
         "Does Anmol do freelance projects?",
@@ -146,6 +149,8 @@
   {
     "tag": "download_cv",
     "patterns": [
+        "CV",
+        "resume",
         "Where can I download Anmol's CV?",
         "How do I get Anmol's resume?",
         "Is there a way to download Anmol's resume?",
