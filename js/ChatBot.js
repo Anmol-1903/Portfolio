@@ -6,7 +6,7 @@ class Chatbot {
 
     // Load intents from intents.json
     loadIntents() {
-        fetch('api/intents.json')
+        fetch('intents.json')
             .then(response => response.json())
             .then(data => {
                 this.intents = data.intents;
