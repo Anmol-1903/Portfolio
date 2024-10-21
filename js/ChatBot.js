@@ -1,6 +1,14 @@
 class Chatbot {
     constructor() {
         this.intents = []; // To store intents from intents.json
+        this.defaultResponses = [
+            "Can you please rephrase that?",
+            "I'm not sure I understand.",
+            "Could you clarify your question?",
+            "Didn't quite get that one.",
+            "I need a bit more information to help.",
+            "Say that again?",
+        ];
         this.loadIntents(); // Load intents on initialization
     }
 
@@ -16,12 +24,15 @@ class Chatbot {
 
     // Function to get a response based on user input
     getResponse(input) {
-        let response = "Sorry, I didn't understand that."; // Default response
+        const words = input.toLowerCase().split(/\s+/); // Split input into words
+        let response = this.defaultResponses[Math.floor(Math.random() * this.defaultResponses.length)]; // Default response
+
         for (let i = 0; i < this.intents.length; i++) {
             const patterns = this.intents[i].patterns;
+
+            // Check if any word in the input matches any pattern
             for (let j = 0; j < patterns.length; j++) {
-                const pattern = new RegExp(patterns[j], 'i'); // Case insensitive matching
-                if (pattern.test(input)) {
+                if (words.includes(patterns[j].toLowerCase())) {
                     const responses = this.intents[i].responses;
                     response = responses[Math.floor(Math.random() * responses.length)]; // Randomly select a response
                     return response; // Return immediately upon finding a match
@@ -30,8 +41,8 @@ class Chatbot {
         }
         return response; // Return default response if no matches found
     }
-    
 }
+
 
 // Create a new Chatbot instance
 const chatbot = new Chatbot();

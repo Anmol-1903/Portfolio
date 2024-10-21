@@ -9,7 +9,27 @@
         "Is anyone there?",
         "Hello",
         "Good day",
-        "Yo"
+        "Yo", 
+        "'Allo",
+        "'Allo 'Allo",
+        "Aye oop",
+        "Ay up",
+        "Ahoy",
+        "G'day",
+        "Greetings",
+        "Hey there",
+        "Hi there",
+        "Hiya",
+        "How are things",
+        "How are ya",
+        "How ya doin'",
+        "How's it goin'",
+        "How's it going",
+        "How's life",
+        "Howdy",
+        "Sup",
+        "What's new",
+        "What's up"
       ],
       "responses": [
         "Hello, dev! Ready to press start on today's coding adventure?",
@@ -21,7 +41,24 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Take care",
+        "See you soon",
+        "Farewell",
+        "Have a good one",
+        "Talk to you later",
+        "Until next time",
+        "Later",
+        "Adios",
+        "Ciao",
+        "Peace out",
+        "So long",
+        "Bye-bye"
+      ],
       "responses": [
         "Game over for now! Catch you on the next respawn!",
         "Logging off, but I'll be here when you're ready for the next level!",
@@ -32,7 +69,24 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Thank you so much",
+        "Thanks a million",
+        "I appreciate it",
+        "Much appreciated",
+        "Thanks for your help",
+        "I'm grateful",
+        "Thank you very much",
+        "Thanks for that",
+        "Thanks a bunch",
+        "You’re awesome, thanks!",
+        "Cheers",
+        "Thanks for everything"
+      ],
       "responses": [
         "You've unlocked the 'Gratitude' achievement! Happy to help!",
         "Glad I could buff your coding skills! Keep going, dev!",
@@ -42,16 +96,36 @@
     },
     {
       "tag": "about_me",
-      "patterns": ["Tell me about yourself", "What do you do?", "Who are you?", "What are you all about?"],
+      "patterns": [
+        "yourself",
+        "who are you",
+        "introduce yourself",
+        "purpose",
+        "your story",
+        "describe yourself",
+        "function",
+        "about you",
+        "help me",
+        "what are you"
+      ],
       "responses": [
-          "I'm Anmol, a passionate game developer with over 3 years of experience crafting clean, robust code that powers your favorite games. From FPS to Racing, Horror to Educational genres, I've got you covered! I handle your project with the professionalism of a true dev because your success is my ultimate achievement!",
-          "Think of me as your game development ally! With 3 years of experience under my belt, I specialize in writing clean code that fuels exciting gameplay across genres like FPS, Racing, and even Educational games. Together, we'll conquer challenges because your success is a win for us both!",
-          "As a dedicated game developer with 3 years of experience, I create clean and efficient code to build robust automation for your projects. Whether it's a thrilling FPS or an engaging Educational game, I approach your project like a final boss fight—ready to deliver top-notch quality because your success means everything to me!"
+        "I'm Anmol, a passionate game developer with over 3 years of experience crafting clean, robust code that powers your favorite games. From FPS to Racing, Horror to Educational genres, I've got you covered! I handle your project with the professionalism of a true dev because your success is my ultimate achievement!",
+        "Think of me as your game development ally! With 3 years of experience under my belt, I specialize in writing clean code that fuels exciting gameplay across genres like FPS, Racing, and even Educational games. Together, we'll conquer challenges because your success is a win for us both!",
+        "As a dedicated game developer with 3 years of experience, I create clean and efficient code to build robust automation for your projects. Whether it's a thrilling FPS or an engaging Educational game, I approach your project like a final boss fight—ready to deliver top-notch quality because your success means everything to me!"
       ]
   },
   {
     "tag": "my_skills",
-    "patterns": ["What are your skills?", "Tell me about your skills", "What can you do?", "What skills do you have?", "skills"],
+    "patterns": [
+        "skill",
+        "skills",
+        "capabilities",
+        "capability",
+        "abilities",
+        "ability",
+        "competence",
+        "can do"
+    ],
     "responses": [
         "I'm proficient in Unity and C# scripting, wielding gaming physics engines to create immersive experiences. I excel in optimizing performance, coding, debugging, and testing games. I develop AI for various genres, from Horror to FPS, Racing, and Strategy, and I can handle both 2D and 3D projects. Plus, I thrive under pressure with solid communication skills!",
         "As a game developer, I master Unity and C# scripting, focusing on gaming physics engines for smooth gameplay. I shine in optimizing performance and have a knack for coding, debugging, and testing across genres like Horror, FPS, Racing, and Strategy. Whether it's 2D or 3D, I'm ready for any challenge while maintaining good communication and adaptability!",
@@ -60,7 +134,13 @@
   },
   {
     "tag": "other_skills",
-    "patterns": ["What other skills do you have?", "Do you have any additional skills?", "Tell me about your other skills", "What else can you do?", "other skills"],
+    "patterns": [
+        "other skills",
+        "additional skills",
+        "what else can you do",
+        "more skills",
+        "further skills"
+    ],
     "responses": [
         "I possess strong project management skills, planning and executing e-learning projects like a seasoned game designer navigating a complex quest. I'm well-versed in programming languages like HTML5, CSS, JavaScript, and Python, and I design user-friendly interfaces that enhance the learner experience, making it as engaging as an epic adventure!",
         "Beyond my game development expertise, I excel in project management, orchestrating e-learning projects with the precision of a game dev managing resources. I know my way around HTML5, CSS, JavaScript, and Python, and I'm all about crafting user-friendly interfaces that level up the learning experience!",
@@ -69,7 +149,19 @@
   },
   {
     "tag": "academic_bg",
-    "patterns": ["What's your academic background?", "Tell me about your education", "What is your educational history?", "Where did you study?", "school", "college", "studies"],
+    "patterns": [
+        "academic",
+        "background",
+        "education",
+        "educational",
+        "history",
+        "study",
+        "school",
+        "university",
+        "college",
+        "studies",
+        "studied"
+    ],
     "responses": [
         "I completed my High School Education at Rotary Public School, Gurgaon, finishing with a solid 76% in 2020. Then, I leveled up my skills with an Undergraduate Degree at Vivekananda Institute of Professional Studies, Pitampura, graduating in 2023 with an impressive 8.8 CGPA. Right now, I'm on a quest for knowledge pursuing a Postgraduate Degree at K.R. Mangalam University, Sohna, aiming to complete it in 2025!",
         "My educational journey began at Rotary Public School, Gurgaon, where I finished high school with a respectable 76% in 2020. I then embarked on my Undergraduate Degree adventure at Vivekananda Institute of Professional Studies, Pitampura, earning an 8.8 CGPA in 2023. Currently, I'm leveling up my expertise in a Postgraduate Degree at K.R. Mangalam University, Sohna, set to finish in 2025!",
@@ -78,18 +170,41 @@
   },
   {
     "tag": "extracurricular",
-    "patterns": ["What extracurricular activities have you done?", "Tell me about your extracurriculars", "What else have you been involved in?", "Any additional activities outside of studies?", "extra"],
+    "patterns": [
+      "extracurricular",
+      "extracurriculars",
+      "additional",
+      "additionals",
+      "activity",
+      "activities",
+      "extra",
+      "extras",
+      "involved in"
+    ],
     "responses": [
         "Once, I secured 2nd place in the Tech Horizon Project Showcase at KRMU and won a prize of INR 4k—definitely a win for the portfolio!",
         "I also won the TechOn Project Showcase hackathon organized at VIPS, bringing home a prize of INR 15k. Talk about leveling up!",
         "I participated in NAAC+, showcasing a game project at VIPS, which gave me great exposure to industry representatives—definitely a valuable quest!",
         "During my undergrad, I had the opportunity to lecture students on Unity3D for the ACE Club at VIPS. It was my first time teaching, and it felt great to share knowledge!",
-        "I mentored 3 teams of Indie Game Developers, guiding them in building their first games and teaching them the fundamentals of game development—like being a support character in their journey!"
+        "I mentored 3 teams of Indie Game Developers, guiding them in building their first games and teaching them the fundamentals of game development—like being a support character in their journey!",
+        "I mentored a class of about 60 students from VIPS. Helped them build their first games, and teaching various 2D game optimization techniques"
     ]
   },
   {
     "tag": "contact_anmol",
-    "patterns": ["How do I contact Anmol?", "What's the best way to reach Anmol?", "How can I get in touch with Anmol?", "Can I contact Anmol?", "How do I contact you?","contact", "What's the best way to reach you?", "How can I get in touch with you?", "Can I contact you?"],
+    "patterns": [
+        "contact",
+        "contacts",
+        "reach",
+        "in touch",
+        "connect",
+        "message",
+        "messages",
+        "call",
+        "calls",
+        "email",
+        "emails"
+    ],
     "responses": [
         "To contact me, just open the navbar by clicking the icon in the top right corner, then click 'Contact.' You can send emails directly to me from there—easy peasy!",
         "Getting in touch with me is simple! Just click the icon in the top right to open the navbar, then select 'Contact.' You can send an email directly to me from that page!",
@@ -99,25 +214,17 @@
   {
     "tag": "socials",
     "patterns": [
+      "Social",
       "Socials",
-      "What are Anmol's socials?",
-      "How can I find Anmol on social media?",
-      "Where can I follow Anmol?",
-      "Can you share Anmol's social media links?",
-      "What's Anmol's Instagram?",
-      "Does Anmol have a LinkedIn?",
-      "How can I connect with Anmol on Discord?",
-      "Is Anmol on itch.io?",
-      "Where can I find Anmol's social media profiles?",
-      "What are your socials?",
-      "How can I find you on social media?",
-      "Where can I follow you?",
-      "Can you share your social media links?",
-      "What's your Instagram?",
-      "Do you have a LinkedIn?",
-      "How can I connect with you on Discord?",
-      "Are you on itch.io?",
-      "Where can I find your social media profiles?"
+      "link",
+      "links",
+      "media",
+      "medias",
+      "profile",
+      "profiles",
+      "platforms",
+      "platform",
+      "follow"
     ],
     "responses": [
         "To find my socials, just head to the home page using the navbar. All the social media links, including LinkedIn, Instagram, Discord, and itch.io, are listed there—happy exploring!",
@@ -129,16 +236,14 @@
     "tag": "freelance",
     "patterns": [
         "freelance",
-        "Is Anmol open to freelance opportunities?",
-        "Can I hire Anmol for freelance work?",
-        "Does Anmol do freelance projects?",
-        "What about freelance work with Anmol?",
-        "How can I inquire about freelance opportunities with Anmol?",
-        "are you open to freelance opportunities?",
-        "Can I hire you for freelance work?",
-        "Do yo do freelance projects?",
-        "What about freelance work with you?",
-        "How can I inquire about freelance opportunities with you?"
+        "hire",
+        "open to",
+        "opportunities",
+        "opportunity",
+        "work",
+        "projects",
+        "project",
+        "inquire"
     ],
     "responses": [
         "I'm open to freelance opportunities! Feel free to contact me for more details—let's create something amazing together!",
@@ -151,16 +256,11 @@
     "patterns": [
         "CV",
         "resume",
-        "Where can I download Anmol's CV?",
-        "How do I get Anmol's resume?",
-        "Is there a way to download Anmol's resume?",
-        "Can I find Anmol's CV somewhere?",
-        "Where's the download link for Anmol's resume?",
-        "Where can I download your CV?",
-        "How do I get your resume?",
-        "Is there a way to download your resume?",
-        "Can I find your CV somewhere?",
-        "Where's the download link for your resume?"
+        "download cv",
+        "download resume",
+        "find CV",
+        "find resume",
+        "Curriculum"
     ],
     "responses": [
         "To download my CV, just head over to the 'About Me' section using the navbar. You'll find a handy download button waiting for you!",
@@ -171,7 +271,11 @@
 
   {
     "tag": "delivery_disasters",
-    "patterns": ["Tell me about Delivery Disasters", "What is Delivery Disasters?", "Describe Delivery Disasters", "What kind of game is Delivery Disasters?"],
+    "patterns": [
+        "Delivery Disasters",
+        "delivery",
+        "disasters"
+    ],
     "responses": [
         "Delivery Disasters is an exhilarating driving and racing game where you step into the shoes of a delivery driver in a vast, dynamic world. Designed for all PC types, it boasts stunning graphics and smooth performance. You'll experience a realistic day-night cycle, navigate an expansive map, and choose from diverse vehicles with extensive customization options. Your mission? Deliver packages, hone your driving skills, and conquer obstacles in this thrilling adventure!",
         "In Delivery Disasters, you become a delivery driver in an expansive and dynamic world, ready to take on exciting driving challenges! Built for all PC types, the game features stunning graphics, a realistic day-night cycle, and an expansive map. With a variety of vehicles and deep customization options, it's your chance to deliver packages, sharpen your driving skills, and overcome all kinds of obstacles!",
@@ -180,7 +284,11 @@
   },
   {
     "tag": "letter_quest",
-    "patterns": ["Tell me about Letter Quest", "What is Letter Quest?", "Describe Letter Quest", "What kind of game is Letter Quest?"],
+    "patterns": [
+      "letter quest",
+      "letter",
+      "quest"
+    ],
     "responses": [
         "Letter Quest is an educational adventure designed for ages 3 and up, where players are challenged to fill in the blanks to complete words. With over 40 words to discover, the game ramps up in difficulty as you progress. It features a handy hint system to guide players on their journey. Letter Quest makes learning a fun and delightful adventure, ensuring players level up their vocabulary skills while having a blast!",
         "In Letter Quest, players aged 3 and up embark on a word-filling adventure! This educational game challenges you to complete over 40 words, gradually increasing in difficulty. With a helpful hint system at your disposal, it's designed to make learning enjoyable—turning word discovery into a thrilling quest!",
@@ -189,7 +297,11 @@
   },
   {
     "tag": "rubber_bang",
-    "patterns": ["Tell me about Rubber Bang", "What is Rubber Bang?", "Describe Rubber Bang", "What kind of game is Rubber Bang?"],
+    "patterns": [
+      "rubber bang",
+      "rubber",
+      "bang"
+    ],
     "responses": [
         "Rubber Bang is an exciting and action-packed game where players control a bouncy rubber ball, navigating through a vibrant world filled with challenges and obstacles. Your goal is to collect power-ups, bounce your way to victory, and unleash explosive moves against enemies! With its colorful graphics and dynamic gameplay, Rubber Bang delivers a thrilling experience that keeps players on their toes!",
         "In Rubber Bang, you'll take control of a lively rubber ball, bouncing through a colorful world packed with challenges and surprises. Your mission? Collect power-ups, defeat enemies, and master your explosive moves! With engaging graphics and fast-paced gameplay, Rubber Bang offers a fun experience that'll keep you bouncing back for more!",
@@ -198,7 +310,10 @@
   },
   {
     "tag": "monophobia",
-    "patterns": ["Tell me about Monophobia", "What is Monophobia?", "Describe Monophobia", "What kind of game is Monophobia?"],
+    "patterns": [
+      "monophobia",
+      "phobia"
+    ],
     "responses": [
         "Monophobia immerses players in the chilling fear of solitude. You awaken in an abandoned house, faced with the terrifying challenge of finding a key to escape. The game is packed with unexpected jumpscares, eerie graphics, and a plethora of horror elements that create a spine-tingling experience. Will you muster the courage to overcome your fear and make it out, or will the lurking terror consume you?",
         "In Monophobia, players are thrust into a nightmarish scenario where the fear of being alone takes center stage. You start in an abandoned house and must locate a key to escape, all while navigating unexpected jumpscares and unsettling visuals. With a gripping atmosphere filled with horror elements, it's a race against time to face your fears and escape the clutches of dread!",
@@ -207,7 +322,11 @@
   },
   {
     "tag": "the_great_fleece",
-    "patterns": ["Tell me about The Great Fleece", "What is The Great Fleece?", "Describe The Great Fleece", "What kind of game is The Great Fleece?"],
+    "patterns": [
+      "the great fleece",
+      "great fleece",
+      "fleece"
+    ],
     "responses": [
         "The Great Fleece is an exciting 3D stealth game where you play as a protagonist attempting to infiltrate a vault guarded by cunning guards. With advanced pathfinding AIs, engaging cutscenes, and strategic gameplay, every move counts! A unique feature allows players to toss a coin by right-clicking on the floor, creating a distraction to lure nearby guards away. Can you outsmart them and claim the prize?",
         "In The Great Fleece, you step into a thrilling 3D adventure where your goal is to break into a heavily guarded vault. The game features sophisticated pathfinding AIs, cinematic cutscenes, and strategic gameplay that keeps you on your toes. Use the distraction mechanic by tossing a coin to divert guards—can you outwit them and secure the loot?",
@@ -216,7 +335,10 @@
   },
   {
     "tag": "galaxy_shooter",
-    "patterns": ["Tell me about Galaxy Shooter", "What is Galaxy Shooter?", "Describe Galaxy Shooter", "What kind of game is Galaxy Shooter?"],
+    "patterns": [
+      "galaxy shooter",
+      "galaxy"
+    ],
     "responses": [
         "Galaxy Shooter is an action-packed 2D game where you blast your way through oncoming spaceships to clear your path and advance. With three lives at your disposal, the challenge is to survive as long as possible in endless shooting mode. Power-ups like Speed and Shield add an extra layer of fun, and don't forget about the local multiplayer option—team up with a friend and shoot for the stars together!",
         "In Galaxy Shooter, you take control of a spacecraft in a thrilling 2D shoot-'em-up experience! Destroy waves of oncoming ships while managing your three lives and striving for high scores in endless mode. Collect power-ups like Speed and Shield to enhance your gameplay, and challenge your friends in local multiplayer—who can survive longer in the cosmic battle?",
@@ -225,7 +347,12 @@
   },
   {
     "tag": "minehex",
-    "patterns": ["Tell me about MineHex", "What is MineHex?", "Describe MineHex", "What kind of game is MineHex?"],
+    "patterns": [
+      "minehex",
+      "mine hex",
+      "hex",
+      "minesweeper"
+    ],
     "responses": [
         "MineHex takes the classic Minesweeper experience and gives it a fresh twist with hexagonal tiles! While it might still be a puzzler, it's definitely less boring than the old squares. Players can fully customize their game, adjusting the grid size up to 800 tiles and placing up to 700 mines. The goal? Mark all the mines correctly and claim victory in this revamped challenge!",
         "What if Minesweeper was hexagonal? Enter MineHex! This project transforms the classic game with a vibrant hexagonal grid, allowing players to customize their experience by choosing the grid size and number of mines—up to a staggering 700! Your mission is simple: mark all the mines correctly to win. Get ready for a more engaging twist on a timeless classic!",
@@ -234,7 +361,11 @@
   },
   {
     "tag": "space_bounty",
-    "patterns": ["Tell me about Space Bounty", "What is Space Bounty?", "Describe Space Bounty", "What kind of game is Space Bounty?"],
+    "patterns": [
+      "space bounty",
+      "space",
+      "bounty"
+    ],
     "responses": [
         "Space Bounty is my very first game developed in Unity 2D, where you find yourself stranded in the vastness of space with a bounty on your head! You're not alone, though—numerous Space Bounty Hunters are out to claim that reward. As you survive longer, the enemies become stronger and faster. Collect scraps to heal your spaceship and boost your turrets, but don't forget to use your dash ability to escape danger. Good luck out there!",
         "In Space Bounty, you're a lone survivor in space with a bounty on your head, and plenty of bounty hunters are hot on your trail! The longer you last, the tougher and quicker your foes become. Gather scraps floating in space to repair your ship or enhance your turrets' fire rate, and don't forget to use your dash ability to outmaneuver those relentless hunters. May the odds be ever in your favor!",
