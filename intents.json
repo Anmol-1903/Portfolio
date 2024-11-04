@@ -83,7 +83,7 @@
         "Thank you very much",
         "Thanks for that",
         "Thanks a bunch",
-        "You’re awesome, thanks!",
+        "You're awesome, thanks!",
         "Cheers",
         "Thanks for everything"
       ],
@@ -369,6 +369,33 @@
         "Space Bounty is my very first game developed in Unity 2D, where you find yourself stranded in the vastness of space with a bounty on your head! You're not alone, though—numerous Space Bounty Hunters are out to claim that reward. As you survive longer, the enemies become stronger and faster. Collect scraps to heal your spaceship and boost your turrets, but don't forget to use your dash ability to escape danger. Good luck out there!",
         "In Space Bounty, you're a lone survivor in space with a bounty on your head, and plenty of bounty hunters are hot on your trail! The longer you last, the tougher and quicker your foes become. Gather scraps floating in space to repair your ship or enhance your turrets' fire rate, and don't forget to use your dash ability to outmaneuver those relentless hunters. May the odds be ever in your favor!",
         "Welcome to Space Bounty, my first venture into Unity 2D! You're stranded in the cosmic void with a bounty on your head, and you're not alone—space bounty hunters are on your tail. As time ticks on, enemies grow stronger and faster. Collect scraps to heal your ship or amp up your turrets, and utilize your dash ability to navigate through the chaos. Survive and thrive in this thrilling space adventure!"
+    ]
+  },
+  {
+    "tag": "decaying_light",
+    "patterns": [
+      "Decaying Light",
+      "Decaying",
+      "Light"
+    ],
+    "responses": [
+        "Decaying Light is a 2D survival platformer where players battle time and relentless zombies. After being bitten, you must race to the hospital for a cure while facing challenging AI enemies and obstacles. With comic-style storytelling and pixel art visuals, Decaying Light combines intense action with a gripping narrative, delivering an engaging survival experience on both PC and mobile.",
+        "In Decaying Light, a 2D survival platformer, every second counts. You've been infected and must navigate a zombie-filled city to reach a hospital. With comic-style storytelling, pixel art graphics, and intelligent enemy AI, Decaying Light brings suspense and urgency to each level, offering a survival journey like no other on PC and mobile.",
+        "Decaying Light is a thrilling 2D platformer where players face a ticking clock and aggressive AI enemies. After a zombie bite, you must reach the hospital in time while evading enemies. Featuring comic-style storytelling and pixel art graphics, Decaying Light's mix of action and survival delivers a unique, immersive experience for both PC and mobile players."
+]
+  },
+  {
+    "tag": "formulix",
+    "patterns": [
+      "formulix",
+      "formula",
+      "f1"
+    ],
+    "responses": [
+      "Formulix is an educational project showcasing the power of AI in gaming. Created with Unity's MLAgents toolkit, I trained an AI to race an F1 car using reinforcement learning, where the AI taught itself to drive over months of training. This project proves how AI can master complex tasks independently, hinting at the incredible potential of self-taught AI across various challenges in gaming and beyond.",
+      "Formulix is a proof-of-concept game exploring AI-driven gameplay. Leveraging Unity's MLAgents toolkit and reinforcement learning, I trained an AI to race an F1 car independently. Designed for educational purposes, this project reveals the vast capabilities of AI when given sufficient training resources. Watching the AI learn and refine its driving offers a glimpse into how powerful and adaptive game AI can become with time and effort.",
+      "Formulix showcases the potential of AI in gaming through an F1 racing simulation. Built for educational purposes, I used Unity's MLAgents and reinforcement learning to train an AI to drive an F1 car from scratch. After months of trial and improvement, the AI achieved self-sufficient racing skills. This project highlights how AI's learning capability opens up exciting future possibilities, setting a new bar for interactive game design."
+
     ]
   }
   ]
