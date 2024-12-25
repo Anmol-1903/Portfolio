@@ -397,6 +397,19 @@
       "Formulix showcases the potential of AI in gaming through an F1 racing simulation. Built for educational purposes, I used Unity's MLAgents and reinforcement learning to train an AI to drive an F1 car from scratch. After months of trial and improvement, the AI achieved self-sufficient racing skills. This project highlights how AI's learning capability opens up exciting future possibilities, setting a new bar for interactive game design."
 
     ]
+  },
+  {
+    "tag": "galactic_pong",
+    "patterns": [
+      "galactic",
+      "pong",
+      "paddle"
+    ],
+    "responses": [
+      "Galactic Pong takes the classic Pong formula to a whole new level with a unique twist—your score *is* your paddle! As you play, your paddle's shape dynamically changes based on your performance, turning each match into a strategic challenge. Featuring Singleplayer, local multiplayer, and online multiplayer modes, Galactic Pong is a fresh, cosmic take on a timeless classic.",
+      "Galactic Pong redefines the classic Pong gameplay with a clever twist: your paddle's shape changes based on your score! This innovative mechanic adds a layer of strategy to every match. With modes for Singleplayer, local multiplayer, and online multiplayer, Galactic Pong guarantees an out-of-this-world gaming experience for everyone.",
+      "Experience the evolution of Pong with Galactic Pong, where your score determines your paddle's shape. Will it help you or hinder you in your quest to victory? With Singleplayer, local multiplayer, and online multiplayer modes, Galactic Pong transforms a retro favorite into a futuristic showdown. Get ready for a game that’s as challenging as it is fun!"
+    ]
   }
   ]
 }
