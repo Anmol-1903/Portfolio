@@ -6,7 +6,7 @@ button {
     padding: 0 10px;
     color: white;
     margin: auto;
-    text-shadow: 2px 2px rgb(116, 116, 116);
+    text-shadow: 1.5px 1.5px rgb(0,0,158);
     text-transform: uppercase;
     cursor: pointer;
     border: solid 2px black;

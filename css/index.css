@@ -1384,16 +1384,17 @@ form button:hover{
 .thank-you-container {
     text-align: center;
     background-color: #000;
+    height: 100vh;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .monster{
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 50%;
-    height: auto;
-    object-fit: cover; 
+    height: 50%;
+    object-fit:scale-down;
     border-radius: 8px;
 }
 .thank-you-container h1 {
@@ -1444,7 +1445,9 @@ form button:hover{
   .button svg path {
     fill: white
   }
-  
+  .now,.play{
+    color: #0af;
+  }
   .button span {
     cursor: pointer;
     display: inline-block;
